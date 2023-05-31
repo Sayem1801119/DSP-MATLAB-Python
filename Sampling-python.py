@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
 f1 = 10
 ts = np.linspace(0, 1, 600)
 ss = 10 * np.sin(2 * np.pi * f1 * ts)
+
+# Multiple figure
 plt.figure(1)
 plt.plot(ts, ss, '-b', linewidth=2)
 plt.title('Continuous Signal, 10 Sin(20*pi*t)')
